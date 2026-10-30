@@ -2,6 +2,7 @@
 
 import BookPage from "@/components/BookPage";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -50,10 +51,14 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.8 }}
           whileHover={{ scale: 1.02 }}
         >
-          <img
+          <Image
             src="/photos/hero-bg.jpg"
             alt="Mounira"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            quality={85}
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"
           />
         </motion.div>
 
@@ -118,10 +123,14 @@ export default function Home() {
         </motion.div>
         
         <div className="relative w-full h-[280px] sm:h-[350px] md:h-[400px] lg:h-[420px] my-3 sm:my-4 overflow-hidden rounded-lg shadow-xl">
-          <img
+          <Image
             src="/photos/photo2.jpg"
             alt="Mounira"
-            className="w-full h-full object-cover"
+            fill
+            loading="lazy"
+            quality={75}
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 80vw"
           />
         </div>
 
@@ -363,7 +372,7 @@ export default function Home() {
         </div>
 
         <p className="text-sm leading-relaxed italic text-center mt-3">
-          "Mon bébé, mon amour, mon évidence... Ma Sarauniyata, si ce livre te donne ne serait-ce qu'un sourire, alors il aura déjà accompli quelque chose de beau. Garde-le comme un petit rappel : tu es aimée, tu es appréciée, et il y a quelqu'un qui a pris le temps de rassembler ces photos et ces mots spécialement pour toi."
+          "Mon bébé, mon amour, mon évidence... Ma Sarauniyata, si ce site te donne ne serait-ce qu'un sourire, alors il aura déjà accompli quelque chose de beau. Garde-le comme un petit rappel : tu es aimée, tu es appréciée, et il y a quelqu'un qui a pris le temps de rassembler ces photos et ces mots spécialement pour toi."
         </p>
       </BookPage>
 

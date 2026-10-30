@@ -1,6 +1,6 @@
 export const loveBookContent = {
   intro: {
-    title: "UN PETIT LIVRE POUR TOI",
+    title: "UN SITE POUR TOI",
     subtitle: "MA SARAUNIYATA",
     tags: ["mon amour", "mon évidence", "mon bébé"],
     description: "Des photos, des mots doux et un morceau de mon cœur.",
@@ -11,10 +11,10 @@ export const loveBookContent = {
     title: "AVANT DE TOURNER LES PAGES…",
     greeting: "Ma Sarauniyata,",
     paragraphs: [
-      "J'ai voulu créer ce petit livre parce que parfois, un simple « je t'aime » ne suffit pas à raconter tout ce qu'on ressent. Alors j'ai pris tes photos, j'y ai ajouté quelques mots, et j'en ai fait un souvenir que tu peux garder.",
+      "J'ai voulu créer ce site parce que parfois, un simple « je t'aime » ne suffit pas à raconter tout ce qu'on ressent. Alors j'ai pris tes photos, j'y ai ajouté quelques mots, et j'en ai fait un souvenir que tu peux garder.",
       "Tu es mon amour, mon évidence, mon bébé. Ces surnoms sont peut-être simples, mais ils portent chacun une tendresse particulière. Je ne prétends pas trouver toujours les mots parfaits ; je veux surtout que tu sentes la sincérité derrière chacun d'eux.",
       "Je souhaite que notre histoire grandisse avec de la confiance, du respect, de la patience, des éclats de rire et des conversations honnêtes. Je veux célébrer tes joies, respecter tes rêves et apprendre à mieux t'aimer au fil du temps.",
-      "Ce livre est une petite façon de te dire : tu comptes énormément pour moi. ♥"
+      "Ce site est une petite façon de te dire : tu comptes énormément pour moi. ♥"
     ]
   },
 
@@ -88,7 +88,7 @@ export const loveBookContent = {
     {
       number: "12",
       title: "LA DERNIÈRE PAGE… POUR L'INSTANT",
-      text: "Mon bébé, mon amour, mon évidence… Ma Sarauniyata, si ce livre te donne ne serait-ce qu'un sourire, alors il aura déjà accompli quelque chose de beau. Garde-le comme un petit rappel : tu es aimée, tu es appréciée, et il y a quelqu'un qui a pris le temps de rassembler ces photos et ces mots spécialement pour toi.",
+      text: "Mon bébé, mon amour, mon évidence… Ma Sarauniyata, si ce site te donne ne serait-ce qu'un sourire, alors il aura déjà accompli quelque chose de beau. Garde-le comme un petit rappel : tu es aimée, tu es appréciée, et il y a quelqu'un qui a pris le temps de rassembler ces photos et ces mots spécialement pour toi.",
       photo: "photo6.jpg"
     }
   ],
